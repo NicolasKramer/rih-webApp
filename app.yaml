@@ -1,0 +1,14 @@
+application: web-app-py
+version: 1
+runtime: python
+api_version: go1
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: /.*
+  script: webapp.py
+  login: required
+
+  

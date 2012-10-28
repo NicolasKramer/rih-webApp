@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>{{ title }}</title>
+<!-- CSS files placed  in static folder -->
+<link type="text/css" rel="stylesheet" href="/static/hfwwg.css" />
+<link type="text/css" rel="stylesheet" href="/static/styledform.css" />
+</head>
+<body>
+<h1>{{ title }}</h1>
